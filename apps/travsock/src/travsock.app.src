@@ -1,11 +1,12 @@
 {application, travsock,
- [{description, "An OTP application"},
+ [{description, "travel websocket"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, { travsock_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    cowboy
    ]},
   {env,[]},
   {modules, []},
